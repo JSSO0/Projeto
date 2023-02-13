@@ -3,9 +3,7 @@ import java.util.regex.Pattern;
 import java.util.Scanner;
 
 public class WhatsAppNumberValidator {
-    /**
-     * @param args
-     */
+//apenas salvar
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite o número: ");

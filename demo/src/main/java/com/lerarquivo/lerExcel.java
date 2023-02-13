@@ -7,7 +7,7 @@ public class lerExcel {
     public static void readExcel(String filePath) {
         try {
             // Cria um objeto Workbook a partir do arquivo excel
-            Workbook workbook = Workbook.getWorkbook(new File(filePath));
+            Workbook workbook = Workbook.getWorkbook(new File("teste.xlsx"));
 
             // Obtém a primeira planilha do arquivo
             Sheet sheet = workbook.getSheet(0);
